@@ -49,5 +49,8 @@ public class Employee {
         this.age = age;
     }
 
-    // Declare the printer.
+    // Declare the printer. Maintain security: do not reveal PII.
+    public String toString(){
+        return "[" + this.getId() + ": " + this.getDepartment() + "]";
+    }
 }
