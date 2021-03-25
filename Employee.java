@@ -17,7 +17,7 @@ public class Employee {
 
     }
     // Get the employee's id, name, and department; and age.
-    public Employee(String id, String.name, String department){
+    public Employee(String id, String name, String department){
         this.id = id;
         this.name = name;
         this.department = department;
